@@ -1,7 +1,8 @@
-
-
+import { image, title } from "motion/react-client";
 import pj1 from "../assets/projects/TrendHaven_Ecom.mp4";
 import pj2 from "../assets/projects/portfolio.png";
+import pj3 from "../assets/projects/graphicDesign.png";
+
 export const HERO_CONTENT = `"I am a passionate Full Stack Developer with a strong dedication to building dynamic and user-friendly websites. I specialize in modern web technologies, primarily working with React.js for the frontend and Node.js with Express.js for the backend, along with MongoDB for efficient database management. With a keen eye for design and functionality, I strive to create seamless digital experiences that are both visually appealing and highly performant."`;
 
 export const ABOUT_TEXT = `"I am passionate about building modern, user-friendly websites with creative UI designs. I started learning programming in 2020 and have since worked with a variety of technologies, including React, Node.js, Express.js, MySQL, and MongoDB. With strong critical thinking and problem-solving skills, I enjoy tackling complex challenges and optimizing performance. In addition to web development, I expanded my skills into graphic design last year. Currently, I am working on a game development project for my college, featuring adaptive artificial intelligence opponents."`;
@@ -58,10 +59,17 @@ export const PROJECTS = [
     image: pj2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Javascript", "React", "Tailwind"],
+    technologies: ["Javascript", "React.js", "Tailwind"],
     demoLink: "/",
   },
-  
+  {
+    title: "Graphic Designer Portfolio",
+    image: pj3,
+    description:
+      "A portfolio website showcasing graphic design projects and skills.",
+    technologies: ["Javascript", "React.js", "Tailwind"],
+    demoLink: "https://khh-portfolio.onrender.com/",
+  },
 ];
 
 export const CONTACT = {
