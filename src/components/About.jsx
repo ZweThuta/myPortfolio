@@ -1,5 +1,5 @@
-import React from 'react';
-import { ABOUT_TEXT } from '../constants';
+import React from "react";
+import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
         transition={{ duration: 0.8 }}
         className="text-4xl font-semibold text-center text-white mb-10"
       >
-        About <span className="text-cyan-400">Me</span>
+        About <span className="text-gradient">Me</span>
       </motion.h1>
 
       <motion.div
