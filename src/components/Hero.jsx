@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/profile.jpg";
 import { motion } from "motion/react";
+import { useEffect, useState } from "react";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -12,6 +13,21 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
+  const [text, setText] = useState("");
+  const fullText = "Hey there! I'm Zwe Thuta Min Thein";
+  useEffect(() => {
+    let index = 0;
+    const timer = setInterval(() => {
+      if (index <= fullText.length) {
+        setText(fullText.slice(0, index));
+        index++;
+      } else {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => clearInterval(timer);
+  }, []);
   return (
     <section className="border-b border-neutral-700 pb-4 pt-4 lg:pt-4 lg:mb-35">
       <div className="flex flex-wrap flex-row">
@@ -23,13 +39,13 @@ const Hero = () => {
               animate="visible"
               className="pb-4 text-4xl font-thin text-white tracking-tight lg:mt-16 md:text-4xl"
             >
-              Zwe Thuta Min Thein
+              {text}
             </motion.h1>
             <motion.span
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-purple-500 via-gray-500 to-cyan-300 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="text-gradient text-3xl tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>

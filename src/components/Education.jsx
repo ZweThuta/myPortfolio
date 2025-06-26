@@ -10,11 +10,23 @@ const Education = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Education
+        Edu
+        <span className="text-transparent text-gradient">cation</span>
+        <motion.div
+          className="h-1 w-16 bg-gradient-to-r from-blue-500 to-blue-200 rounded-full mt-2 mx-auto"
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          transition={{ duration: 0.5 }}
+          style={{ transformOrigin: "left" }}
+        />
       </motion.h1>
-      <div dl>
+
+      <div>
         {EDUCATION.map((education, index) => (
-          <div key={index} className="mb-20 flex flex-wrap lg:justify-center text-justify">
+          <div
+            key={index}
+            className="mb-20 flex flex-wrap lg:justify-center text-justify"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -31,7 +43,9 @@ const Education = () => {
             >
               <h6 className="mb-2 text-xl font-semibold text-white flex flex-col">
                 {education.role}
-                <span className="mb-2 text-sm text-purple-500 hover:underline">{education.company}</span>
+                <span className="mb-2 text-sm text-purple-500 hover:underline">
+                  {education.company}
+                </span>
               </h6>
               <p className="text-sm">{education.description}</p>
             </motion.div>

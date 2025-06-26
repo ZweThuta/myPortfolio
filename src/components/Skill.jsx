@@ -15,7 +15,7 @@ import postgresql from "../assets/tech/sql.png";
 import figma from "../assets/tech/figma.png";
 import git from "../assets/tech/git.png";
 import github from "../assets/tech/github.png";
-import intellij from "../assets/tech/intellij.png";
+import intellij from "../assets/tech/intellij-idea.png";
 import vscode from "../assets/tech/vscode.png";
 import postman from "../assets/tech/postman.png";
 
@@ -127,13 +127,13 @@ const Skills = () => {
       {
         name: "Git",
         level: 93,
-        icon: git, // replace with image or keep icon
+        icon: git,
         color: "from-red-400 to-red-600",
       },
       {
         name: "GitHub",
         level: 92,
-        icon: github, // e.g., ../assets/tech/github.png
+        icon: github,
         color: "from-gray-800 to-black",
       },
       {
