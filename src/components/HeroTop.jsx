@@ -64,7 +64,7 @@ const HeroTop = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="w-32 h-32 mx-auto mb-10 relative"
+              className="w-44 h-44 mx-auto mb-10 relative"
             >
               <div className="absolute inset-0 bg-background rounded-full flex items-center justify-center">
                 <img

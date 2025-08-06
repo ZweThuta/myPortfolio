@@ -315,7 +315,7 @@ const Skills = () => {
                   {/* Skill Level Indicator */}
                   <div className="mt-4 flex justify-between items-center text-xs text-muted-foreground">
                     <span>Beginner</span>
-                    <span>Expert</span>
+                    <span>Proficient</span>
                   </div>
                 </div>
               );

@@ -5,18 +5,26 @@ import pj3 from "../assets/projects/graphicDesign.png";
 
 export const HERO_CONTENT = `"I am a passionate Full Stack Developer with a strong dedication to building dynamic and user-friendly websites. I specialize in modern web technologies, primarily working with React.js for the frontend and Node.js with Express.js for the backend, along with MongoDB for efficient database management. With a keen eye for design and functionality, I strive to create seamless digital experiences that are both visually appealing and highly performant."`;
 
-export const ABOUT_TEXT = `"I am passionate about building modern, user-friendly websites with creative UI designs. I started learning programming in 2020 and have since worked with a variety of technologies, including React, Node.js, Express.js, MySQL, and MongoDB. With strong critical thinking and problem-solving skills, I enjoy tackling complex challenges and optimizing performance. In addition to web development, I expanded my skills into graphic design last year. Currently, I am working as a Frontend Developer at local company, where I continue to grow my expertise in creating engaging digital experiences."`;
+export const ABOUT_TEXT = `"I am passionate about building modern, user-friendly websites with creative UI designs. I started learning programming in 2020 and have since worked with a variety of technologies, including React, Node.js, Express.js, MySQL, and MongoDB. With strong critical thinking and problem-solving skills, I enjoy tackling complex challenges and optimizing performance. In addition to web development, I expanded my skills into graphic design last year."`;
 
 export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Higher National Diploma (HND)",
-    company: "Info Myanmar College",
-    description: `During my Higher National Diploma (HND) studies at Info Myanmar College, I deepened my understanding of full-stack development, specializing in the MERN stack while also exploring data science, programming, and big data visualization. I am currently developing an e-commerce website using React.js for the frontend, PHP for the backend API, and MySQL for data management. Beyond web development, I have expanded into game development, where I am working on a role-playing game (RPG) featuring AI-driven opponents.`,
+    year: "2025 - Current",
+    role: "B.Sc. (HONS) Computer Science",
+    company: "British United College",
+    description: `Currently delving into advanced topics including Cybersecurity, Artificial Intelligence, and Data Technologies to prepare for the evolving challenges of the modern IT landscape. Simultaneously exploring Android Mobile Development and leading an academic Computing Project focused on solving real-world problems through practical, innovative solutions.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
+    year: "2024 - 2025",
+    role: "Higher National Diploma (HND)",
+    company: "Info Myanmar College",
+    description: `During my Higher National Diploma (HND) studies at Info Myanmar College, I deepened my understanding of full-stack development, specializing in the MERN stack while also exploring data science, programming, and big data visualization. Focused on Web Development, Data Science, Big Data Visualization
+Developed an AI- based project as a final year project`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  },
+  {
+    year: "2023 - 2024",
     role: "Higher National Certificate (HNC)",
     company: "Info Myanmar College",
     description: `My journey into computer science and web development deepened during my studies at Info Myanmar College, where I pursued a Higher National Certificate (HNC). I started with HTML, CSS, JavaScript, and Java, focusing on front-end development to build visually appealing and user-friendly web applications.Through hands-on projects and coursework, I developed a strong foundation in UI/UX design, responsive web development, and interactive user experiences. This experience not only enhanced my technical skills but also ignited my passion for crafting seamless and functional digital solutions.`,

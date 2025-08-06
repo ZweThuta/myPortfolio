@@ -7,15 +7,15 @@ import SplashCursor from "../utils/SplashCursor.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ClickSpark
+    {/* <ClickSpark
       sparkColor="#fff"
       sparkSize={10}
       sparkRadius={15}
       sparkCount={8}
       duration={400}
     >
-      {/* <SplashCursor /> */}
-      <App />
-    </ClickSpark>
+    </ClickSpark> */}
+    {/* <SplashCursor /> */}
+    <App />
   </StrictMode>
 );

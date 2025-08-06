@@ -45,23 +45,22 @@ const Projects = () => {
               transition={{ duration: 1, ease: "easeOut" }}
               className="w-full lg:w-1/3 flex justify-center"
             >
-              {
-                project.image ? (
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
-                  />
-                ) : <video
-                ref={(el) => (videoRefs.current[index] = el)}
-                src={project.video}
-                width={250}
-                height={160}
-                className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
-                onClick={() => handlePlay(index)}
-              />
-              }
-              
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
+              ) : (
+                <video
+                  ref={(el) => (videoRefs.current[index] = el)}
+                  src={project.video}
+                  width={250}
+                  height={160}
+                  className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
+                  onClick={() => handlePlay(index)}
+                />
+              )}
             </motion.div>
 
             {/* Project Details */}
