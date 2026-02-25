@@ -46,11 +46,18 @@ const Projects = () => {
               className="w-full lg:w-1/3 flex justify-center"
             >
               {project.image ? (
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
-                />
+                <a
+                  href={project.demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="rounded-lg shadow-lg sm:w-full sm:h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
               ) : (
                 <video
                   ref={(el) => (videoRefs.current[index] = el)}

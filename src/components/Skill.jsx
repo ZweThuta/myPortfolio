@@ -2,6 +2,7 @@ import { useState } from "react";
 import javascript from "../assets/tech/javascript.png";
 import typescript from "../assets/tech/typescript.png";
 import reactjs from "../assets/tech/reactjs.png";
+import angularjs from "../assets/tech/angular.png";
 import nextjs from "../assets/tech/nextjs.png";
 import tailwindcss from "../assets/tech/tailwind-css.png";
 import nodejs from "../assets/tech/nodejs.png";
@@ -57,6 +58,12 @@ const Skills = () => {
         level: 90,
         icon: reactjs,
         color: "from-cyan-400 to-cyan-600",
+      },
+      {
+        name: "Angular",
+        level: 70,
+        icon: angularjs,
+        color: "from-red-500 to-red-700",
       },
       {
         name: "Next.js",

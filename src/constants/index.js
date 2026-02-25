@@ -2,6 +2,8 @@ import { image, title } from "motion/react-client";
 import pj1 from "../assets/projects/TrendHaven_Ecom.mp4";
 import pj2 from "../assets/projects/portfolio.png";
 import pj3 from "../assets/projects/graphicDesign.png";
+import pj4 from "../assets/projects/IntelliZ-AI.png";
+
 
 export const HERO_CONTENT = `"I am a passionate Full Stack Developer with a strong dedication to building dynamic and user-friendly websites. I specialize in modern web technologies, primarily working with React.js for the frontend and Node.js with Express.js for the backend, along with MongoDB for efficient database management. With a keen eye for design and functionality, I strive to create seamless digital experiences that are both visually appealing and highly performant."`;
 
@@ -47,6 +49,26 @@ Developed an AI- based project as a final year project`,
 ];
 
 export const PROJECTS = [
+    {
+    title: "InetilliZ AI — Meeting Minutes & Live Transcription",
+  image: pj4,
+  description:
+    "AI-powered meeting assistant with real-time transcription, live minutes, and automatic summaries. Upload audio or record live; get transcripts, key points, decisions, and action items. Includes WebSocket sync, AssemblyAI integration, and a modern responsive UI.",
+  technologies: [
+    "React",
+    "TypeScript",
+    "RTK Query",
+    "Tailwind CSS",
+    "Node.js",
+    "Express",
+    "Prisma",
+    "PostgreSQL",
+    "Socket.io",
+    "Framer Motion",
+  ],
+  demoLink: "https://intelliz-ai.onrender.com",
+  },
+  ,
   {
     title: "TrendHaven Online Marketplace E-commerce Website",
     video: pj1,
