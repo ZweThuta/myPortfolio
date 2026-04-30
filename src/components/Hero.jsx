@@ -68,7 +68,7 @@ const Hero = () => {
               src={profilePic}
               width={350}
               className="rounded-2xl pb-20"
-              alt="profile picture"
+              alt="Portrait of Zwe Thuta Min Thein, Full Stack Developer"
             />
           </div>
         </div>

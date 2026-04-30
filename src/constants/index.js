@@ -7,11 +7,11 @@ import pj4 from "../assets/projects/IntelliZ-AI.png";
 
 export const HERO_CONTENT = `"I am a passionate Full Stack Developer with a strong dedication to building dynamic and user-friendly websites. I specialize in modern web technologies, primarily working with React.js for the frontend and Node.js with Express.js for the backend, along with MongoDB for efficient database management. With a keen eye for design and functionality, I strive to create seamless digital experiences that are both visually appealing and highly performant."`;
 
-export const ABOUT_TEXT = `"I am passionate about building modern, user-friendly websites with creative UI designs. I started learning programming in 2020 and have since worked with a variety of technologies, including React, Node.js, Express.js, MySQL, and MongoDB. With strong critical thinking and problem-solving skills, I enjoy tackling complex challenges and optimizing performance. In addition to web development, I expanded my skills into graphic design last year."`;
+export const ABOUT_TEXT = `"Full-stack developer with hands-on experience delivering production-ready web applications using React, Angular, Node.js, and PHP. Contributed to multiple live systems including ERP, RMS, and QR platforms, handling frontend, backend, and database design. Focused on building scalable, high-performance applications and continuously improving technical expertise"`;
 
 export const EDUCATION = [
   {
-    year: "2025 - Current",
+    year: "2025 - 2026",
     role: "B.Sc. (HONS) Computer Science",
     company: "British United College",
     description: `Currently delving into advanced topics including Cybersecurity, Artificial Intelligence, and Data Technologies to prepare for the evolving challenges of the modern IT landscape. Simultaneously exploring Android Mobile Development and leading an academic Computing Project focused on solving real-world problems through practical, innovative solutions.`,
@@ -98,7 +98,7 @@ export const PROJECTS = [
     description:
       "A portfolio website showcasing graphic design projects and skills.",
     technologies: ["Javascript", "React.js", "Tailwind"],
-    demoLink: "https://khh-portfolio.onrender.com/",
+    demoLink: "https://khinhtethlaing.com",
   },
 ];
 
