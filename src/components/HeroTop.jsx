@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/profile.webp";
 
 import { ChevronDown, Github, Linkedin, Mail, Download } from "lucide-react";
 

@@ -1,8 +1,8 @@
 import { image, title } from "motion/react-client";
 import pj1 from "../assets/projects/TrendHaven_Ecom.mp4";
-import pj2 from "../assets/projects/portfolio.png";
-import pj3 from "../assets/projects/graphicDesign.png";
-import pj4 from "../assets/projects/IntelliZ-AI.png";
+import pj2 from "../assets/projects/portfolio.webp";
+import pj3 from "../assets/projects/graphicDesign.webp";
+import pj4 from "../assets/projects/IntelliZ-AI.webp";
 
 
 export const HERO_CONTENT = `"I am a passionate Full Stack Developer with a strong dedication to building dynamic and user-friendly websites. I specialize in modern web technologies, primarily working with React.js for the frontend and Node.js with Express.js for the backend, along with MongoDB for efficient database management. With a keen eye for design and functionality, I strive to create seamless digital experiences that are both visually appealing and highly performant."`;
